@@ -1,0 +1,20 @@
+{
+  "name": "stash-prs-list",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "repository": {},
+  "scripts": {
+    "pretty": "prettier ./*.js --single-quote --tab-width 4 --write"
+  },
+  "author": "DKunin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
