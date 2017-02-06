@@ -4,10 +4,7 @@ module.exports = function(data, auth, host, userName) {
             return singlePR.author.user.name === userName;
         })
         .map(function(singlePr) {
-            return Object.assign(
-                singlePr,
-                { mine: true }
-            )
+            return Object.assign(singlePr, { mine: true });
         });
 
     var onReview = data
@@ -19,10 +16,7 @@ module.exports = function(data, auth, host, userName) {
             );
         })
         .map(function(singlePr) {
-            return Object.assign(
-                singlePr,
-                { mine: false }
-            )
+            return Object.assign(singlePr, { mine: false });
         });
 
     return onlyMine.concat(onReview);

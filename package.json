@@ -5,7 +5,7 @@
   "main": "",
   "repository": {},
   "scripts": {
-    "pretty": "prettier ./*.js --single-quote --tab-width 4 --write"
+    "pretty": "prettier ./**/*.js --single-quote --tab-width 4 --write"
   },
   "author": "DKunin",
   "license": "MIT",
