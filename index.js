@@ -35,10 +35,11 @@ app.get('/api/prs', function(req, res) {
         .then(function(result) {
             Promise.all(
                 processArrayOfPrsAndConcat(result, username)
-            ).then(result => res.json(result));
+            ).then(result => res.json(Array.isArray(result) ? result : []));
         })
         .catch(function(error) {
-            res.send(error);
+            console.log(error);
+            res.send([]);
         });
 });
 

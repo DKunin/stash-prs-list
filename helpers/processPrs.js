@@ -1,4 +1,7 @@
 module.exports = function(data, auth, host, userName) {
+    if (!data) {
+        return [];
+    }
     var onlyMine = data
         .filter(function(singlePR) {
             return singlePR.author.user.name === userName;
