@@ -11,13 +11,28 @@
 ## Install
 
 ```console
-clone this repo
+    git clone git@github.com:DKunin/stash-prs-list.git
+    cd stash-prs-list
+    npm prepeare
+```
+npm prepeare will create .projects file for you, there you should put links PR projects you are interested in.
+
+Before usage JIRA_PASS and STASH_HOST env variables should be set in your .bashrc file, or any other place, you use to declare variables. JIRA_PASS is base64 encoded your 'username:password'.
+
+```bash
+    export JIRA_PASS='ZnJlZDpmcmVk' 
+    export STASH_HOST='www.stash.com'
 ```
 
+
+```console
+    npm start
+```
 ## Usage
 
+Go to address:
 ```
-http://localhost:4848/api/prs?username=dkunin
+    http://localhost:4848/api/prs?username=dkunin
 ```
 
 ## License

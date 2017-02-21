@@ -1,11 +1,13 @@
 {
   "name": "stash-prs-list",
-  "version": "0.0.1",
-  "description": "",
-  "main": "",
+  "version": "0.1.0",
+  "description": "Simple proxy, to get the API, and combine pull-requests with mergin info, and narrrowing down to a single user.",
+  "main": "index.js",
   "repository": {},
   "scripts": {
-    "pretty": "prettier ./**/*.js --single-quote --tab-width 4 --write"
+    "prepeare": "echo '' > .projects",
+    "start": "node ./",
+    "pretty": "prettier ./*.js ./helpers/*.js --single-quote --tab-width 4 --write"
   },
   "author": "DKunin",
   "license": "MIT",
