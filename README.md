@@ -28,6 +28,19 @@ Before usage JIRA_PASS and STASH_HOST env variables should be set in your .bashr
 ```console
     npm start
 ```
+
+Or with Docker
+
+```console
+    npm run docker-image-build 
+    npm run docker-image-start
+```
+which will run:
+```console
+    docker build ./ -t $(whoami)/$(basename $PWD)
+    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -d $(whoami)/$(basename $PWD)
+```
+
 ## Usage
 
 Go to address:
