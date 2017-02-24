@@ -24,12 +24,18 @@ Before usage JIRA_PASS and STASH_HOST env variables should be set in your .bashr
     export STASH_HOST='www.stash.com'
 ```
 
-
 ```console
     npm start
 ```
 
 Or with Docker
+
+```console
+    docker pull dkunin/stash-prs-list
+    docker run docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -d dkunin/stash-prs-list
+```
+
+Or if you want to modify/build your own image
 
 ```console
     npm run docker-image-build 
