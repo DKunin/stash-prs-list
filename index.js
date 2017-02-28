@@ -6,8 +6,8 @@ const app = express();
 const { processPrs, getRequests, simpleFlatten, cors } = require('./helpers');
 
 const PORT = 4848;
-const { JIRA_PASS, STASH_HOST } = process.env;
-const PROJECTS = fs.readFileSync('./.projects').toString().split('\n').filter(Boolean);
+const { JIRA_PASS, STASH_HOST, STASH_PROJECTS } = process.env;
+const PROJECTS = STASH_PROJECTS.split(' ').filter(Boolean);
 
 app.use(cors);
 

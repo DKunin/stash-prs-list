@@ -17,11 +17,13 @@
 ```
 npm prepeare will create .projects file for you, there you should put links PR projects you are interested in.
 
-Before usage JIRA_PASS and STASH_HOST env variables should be set in your .bashrc file, or any other place, you use to declare variables. JIRA_PASS is base64 encoded your 'username:password'.
+Before usage JIRA_PASS, STASH_HOST and STASH_PROJECTS env variables should be set in your .bashrc file, or any other place, you use to declare variables. JIRA_PASS is base64 encoded your 'username:password'.
+STASH_PROJECTS - should be a list of project paths.
 
 ```bash
     export JIRA_PASS='ZnJlZDpmcmVk' 
     export STASH_HOST='www.stash.com'
+    export STASH_PROJECTS='JS/repos/utils JS/repos/middleware'
 ```
 
 ```console
@@ -32,7 +34,7 @@ Or with Docker
 
 ```console
     docker pull dkunin/stash-prs-list
-    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -d dkunin/stash-prs-list
+    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -e STASH_PROJECTS=$STASH_PROJECTS -d dkunin/stash-prs-list
 ```
 
 Or if you want to modify/build your own image
@@ -44,7 +46,7 @@ Or if you want to modify/build your own image
 which will run:
 ```console
     docker build ./ -t $(whoami)/$(basename $PWD)
-    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -d $(whoami)/$(basename $PWD)
+    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -e STASH_PROJECTS=$STASH_PROJECTS -d $(whoami)/$(basename $PWD)
 ```
 
 ## Usage

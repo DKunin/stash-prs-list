@@ -9,7 +9,7 @@
     "start": "node ./",
     "pretty": "prettier ./*.js ./helpers/*.js --single-quote --tab-width 4 --write",
     "docker-image-build": "docker build ./ -t $(whoami)/$(basename $PWD)",
-    "docker-image-start": "docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -d $(whoami)/$(basename $PWD)"
+    "docker-image-start": "docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -e STASH_PROJECTS=$STASH_PROJECTS  -d $(whoami)/$(basename $PWD)"
   },
   "author": "DKunin",
   "license": "MIT",
