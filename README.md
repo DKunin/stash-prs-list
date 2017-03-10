@@ -1,5 +1,7 @@
 # Stash Pull Requests lists
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/DKunin/stash-prs-list.svg)](https://greenkeeper.io/)
+
 > Simple proxy, to get the API, and combine pull-requests with mergin info, and narrrowing down to a single user.
 
 ## Table of Contents
