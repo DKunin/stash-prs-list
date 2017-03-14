@@ -12,11 +12,16 @@ module.exports = function(data, auth, host, userName) {
 
     var onReview = data
         .filter(function(singlePR) {
-            return Boolean(
-                singlePR.reviewers.filter(function(singleReviewer) {
+            const singleArray = singlePR.reviewers.concat(
+                singlePR.participants
+            );
+            const isReviewerOrParticipant = Boolean(
+                singleArray.filter(function(singleReviewer) {
                     return singleReviewer.user.name === userName;
                 }).length
             );
+
+            return isReviewerOrParticipant;
         })
         .map(function(singlePr) {
             return Object.assign(singlePr, { mine: false });

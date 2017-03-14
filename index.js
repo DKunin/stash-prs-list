@@ -13,15 +13,13 @@ app.use(cors);
 
 function processArrayOfPrsAndConcat(arrayOfPrs, username) {
     return simpleFlatten(
-        arrayOfPrs.map(
-            singleResult =>
-                processPrs(
-                    JSON.parse(singleResult).values,
-                    JIRA_PASS,
-                    STASH_HOST,
-                    username
-                )
-        )
+        arrayOfPrs.map(singleResult =>
+            processPrs(
+                JSON.parse(singleResult).values,
+                JIRA_PASS,
+                STASH_HOST,
+                username
+            ))
     );
 }
 
@@ -31,12 +29,11 @@ function generateRequests(project) {
 
 app.get('/api/prs', function(req, res) {
     const { username } = req.query;
-    Promise
-        .all(PROJECTS.map(generateRequests))
+    Promise.all(PROJECTS.map(generateRequests))
         .then(function(result) {
-            Promise
-                .all(processArrayOfPrsAndConcat(result, username))
-                .then(result => res.json(Array.isArray(result) ? result : []));
+            Promise.all(
+                processArrayOfPrsAndConcat(result, username)
+            ).then(result => res.json(Array.isArray(result) ? result : []));
         })
         .catch(function(error) {
             console.log(error);
@@ -46,4 +43,6 @@ app.get('/api/prs', function(req, res) {
 
 app.listen(PORT);
 
-console.log(`Started service on port http://localhost:${PORT}/api/prs?username=YOUR_USERNAME`);
+console.log(
+    `Started service on port http://localhost:${PORT}/api/prs?username=YOUR_USERNAME`
+);
