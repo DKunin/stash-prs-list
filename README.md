@@ -34,7 +34,7 @@ Or with Docker
 
 ```console
     docker pull dkunin/stash-prs-list
-    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -e STASH_PROJECTS=$STASH_PROJECTS -d dkunin/stash-prs-list
+    docker run -d -p 4848:4848 -e "JIRA_PASS=$JIRA_PASS" -e "STASH_HOST=$STASH_HOST" -e "STASH_PROJECTS=$STASH_PROJECTS" dkunin/stash-prs-list
 ```
 
 Or if you want to modify/build your own image
@@ -46,7 +46,7 @@ Or if you want to modify/build your own image
 which will run:
 ```console
     docker build ./ -t $(whoami)/$(basename $PWD)
-    docker run -p 4848:4848 -e JIRA_PASS=$JIRA_PASS -e STASH_HOST=$STASH_HOST -e STASH_PROJECTS=$STASH_PROJECTS -d $(whoami)/$(basename $PWD)
+    docker run -d -p 4848:4848 -e "JIRA_PASS=$JIRA_PASS" -e "STASH_HOST=$STASH_HOST" -e "STASH_PROJECTS=$STASH_PROJECTS" $(whoami)/$(basename $PWD)
 ```
 
 ## Usage
