@@ -6,9 +6,7 @@ module.exports = function(auth, project, host, repo, pullRequestId) {
         var options = {
             host,
             method: 'POST',
-            path: (
-                `/rest/api/1.0/projects/${project}/repos/${repo}/pull-requests/${pullRequestId}/approve`
-            ),
+            path: `/rest/api/1.0/projects/${project}/repos/${repo}/pull-requests/${pullRequestId}/approve`,
             headers: {
                 Authorization: 'Basic ' + auth,
                 'Content-Type': 'application/json'

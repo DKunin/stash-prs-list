@@ -5,9 +5,9 @@ module.exports = function(auth, project, host) {
     return new Promise(function(resolve, reject) {
         var options = {
             host,
-            path: (
-                '/rest/api/1.0/projects/' + project + '/pull-requests?limit=100'
-            ),
+            path: '/rest/api/1.0/projects/' +
+                project +
+                '/pull-requests?limit=100',
             headers: {
                 Authorization: 'Basic ' + auth,
                 'Content-Type': 'application/json'

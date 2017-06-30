@@ -3,7 +3,13 @@
 const express = require('express');
 const app = express();
 
-const { processPrs, getRequests, simpleFlatten, approvePr, cors } = require('./helpers');
+const {
+    processPrs,
+    getRequests,
+    simpleFlatten,
+    approvePr,
+    cors
+} = require('./helpers');
 
 const PORT = 4848;
 const { JIRA_PASS, STASH_HOST, STASH_PROJECTS } = process.env;
@@ -19,7 +25,8 @@ function processArrayOfPrsAndConcat(arrayOfPrs, username) {
                 JIRA_PASS,
                 STASH_HOST,
                 username
-            ))
+            )
+        )
     );
 }
 
@@ -43,7 +50,13 @@ app.get('/api/prs', function(req, res) {
 
 app.post('/api/approve', function(req, res) {
     const { project, repo, pullRequestId } = req.query;
-    approvePr(JIRA_PASS, project, STASH_HOST, repo, pullRequestId).then((result) => {
+    approvePr(
+        JIRA_PASS,
+        project,
+        STASH_HOST,
+        repo,
+        pullRequestId
+    ).then(result => {
         res.send(result);
     });
 });
