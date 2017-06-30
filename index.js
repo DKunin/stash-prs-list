@@ -1,9 +1,9 @@
 'use strict';
+
 const express = require('express');
-const fs = require('fs');
 const app = express();
 
-const { processPrs, getRequests, simpleFlatten, cors } = require('./helpers');
+const { processPrs, getRequests, simpleFlatten, approvePr, cors } = require('./helpers');
 
 const PORT = 4848;
 const { JIRA_PASS, STASH_HOST, STASH_PROJECTS } = process.env;
@@ -39,6 +39,13 @@ app.get('/api/prs', function(req, res) {
             console.log(error);
             res.send([]);
         });
+});
+
+app.post('/api/approve', function(req, res) {
+    const { project, repo, pullRequestId } = req.query;
+    approvePr(JIRA_PASS, project, STASH_HOST, repo, pullRequestId).then((result) => {
+        res.send(result);
+    });
 });
 
 app.listen(PORT);

@@ -1,5 +1,6 @@
 module.exports = {
     processPrs: require('./processPrs'),
+    approvePr: require('./approvePr'),
     getRequests: require('./getPullRequests'),
     mineWeight: bool => bool ? 1 : 0,
     simpleFlatten: array =>
