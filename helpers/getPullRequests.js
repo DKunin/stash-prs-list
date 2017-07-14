@@ -21,7 +21,7 @@ module.exports = function(auth, project, host) {
                 });
 
                 response.on('end', function() {
-                    resolve(str);
+                    resolve(JSON.parse(str));
                 });
             })
             .on('error', function(e) {
