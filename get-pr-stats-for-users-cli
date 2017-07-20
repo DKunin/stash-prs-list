@@ -1,0 +1,111 @@
+'use strict';
+
+const {
+    getRequests,
+    simpleFlatten,
+    slackPost
+} = require('./helpers');
+
+const fs = require('fs');
+const { JIRA_PASS, STASH_HOST, STASH_PROJECTS, SLACK_BOT_SERVICE } = process.env;
+const PROJECTS = STASH_PROJECTS.split(' ');
+
+
+function processArrayOfPrsAndConcat(arrayOfPrs) {
+    return simpleFlatten(arrayOfPrs.map(({ values }) => values));
+}
+const reviewers = fs.readFileSync('./cosy-team').toString()
+    .split('\n')
+    .filter(Boolean)
+    .reduce(function(newObject, singleReviewer) {
+        return Object.assign(newObject, { [ singleReviewer.trim() ]: { reviewerPRCount: 0 } });
+    }, {});
+
+function generateRequests(project) {
+    return getRequests(JIRA_PASS, project, STASH_HOST);
+}
+
+function getPullRequests() {
+    return new Promise(resolve => {
+        Promise.all(PROJECTS.map(generateRequests))
+            .then(function(result) {
+                resolve(result)
+            })
+            .catch(function(error) {
+                console.log(error);
+                resolve([]);
+            });
+    });
+}
+
+function getLink(newArray, currentObject) {
+    return newArray.concat(currentObject.links.self[0].href);
+}
+
+getPullRequests().then(result => {
+    const parsedResult = processArrayOfPrsAndConcat(result);
+    fs.writeFileSync('./temp', JSON.stringify(parsedResult, null, 4), () => {});
+    const recount = Object.keys(reviewers).reduce((newObject, singleReviewer) => {
+        const reviewCount = parsedResult.filter(singleReview => {
+            return singleReview.reviewers.find(reviewer => {
+                return reviewer.user.name === singleReviewer;
+            });
+        });
+        const authorCount = parsedResult.filter(singleReview => {
+            return singleReview.author.user.name === singleReviewer;
+        });
+
+        const conflicts = authorCount.filter(singleReview => {
+            return singleReview.properties.mergeResult ? singleReview.properties.mergeResult.outcome.trim() === 'CONFLICTED' : false;
+        }).reduce(getLink, []);
+
+        const needsWork = authorCount.filter(singleReview => {
+            return singleReview.reviewers.some(({ status }) => status === 'NEEDS_WORK');
+        }).reduce(getLink, []);
+
+        const fullyApproved = authorCount.filter(singleReview => {
+            return singleReview.reviewers.every(({ status }) => status === 'APPROVED');
+        }).reduce(getLink, []);
+
+        return Object.assign(reviewers, { [ singleReviewer ]: {
+            reviewerPRCount: reviewCount.length,
+            conflicts,
+            needsWork,
+            fullyApproved,
+            authorCount: authorCount.length
+        } });
+    }, reviewers);
+    const sorted = Object.keys(recount).reduce((newArray, singleReviewer) => {
+        return newArray.concat({ 
+            name: singleReviewer,
+            fullyApproved: recount[singleReviewer].fullyApproved,
+            reviewerPRCount: recount[singleReviewer].reviewerPRCount,
+            conflicts: recount[singleReviewer].conflicts,
+            needsWork: recount[singleReviewer].needsWork,
+            authorCount: recount[singleReviewer].authorCount
+        })
+    }, []).sort((a, b) => (a.reviewerPRCount <= b.reviewerPRCount) ? -1 : 1);
+
+    const text = sorted.reduce((newText, { name, fullyApproved, reviewerPRCount, conflicts, needsWork, authorCount }) => {
+        if(!fullyApproved.length && !reviewerPRCount && !conflicts.legnth && !needsWork.length && !authorCount) {
+            return newText;
+        }
+        newText += `\n===========\n*${name}* is author of ${authorCount} requests, and reviews ${reviewerPRCount} \n`;
+        
+        if (conflicts.length) {
+            newText += `\nConflicts: :fire:\n ${conflicts.join('\n')}`;
+        }
+
+        if (needsWork.length) {
+            newText += `\nNeeds Work: :wrench:\n ${needsWork.join('\n')}`;
+        }
+
+        if (fullyApproved.length) {
+            newText += `\nFully approved: :rocket:\n ${fullyApproved.join('\n')}`;
+        }
+            
+        return newText;
+    },'')
+    slackPost(text, SLACK_BOT_SERVICE).then(console.log);
+    console.log(sorted);
+});

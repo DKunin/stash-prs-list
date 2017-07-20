@@ -1,6 +1,7 @@
 module.exports = {
     processPrs: require('./processPrs'),
     approvePr: require('./approvePr'),
+    slackPost: require('./slackPost'),
     getRequests: require('./getPullRequests'),
     mineWeight: bool => (bool ? 1 : 0),
     simpleFlatten: array =>

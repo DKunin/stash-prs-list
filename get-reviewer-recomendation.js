@@ -11,9 +11,8 @@ const {
 
 app.use(cors);
 const fs = require('fs');
-const { JIRA_PASS, STASH_HOST } = process.env;
-const PROJECTS = [
-];
+const { JIRA_PASS, STASH_HOST, STASH_PROJECTS } = process.env;
+const PROJECTS = STASH_PROJECTS.split(' ');
 
 
 function processArrayOfPrsAndConcat(arrayOfPrs) {
