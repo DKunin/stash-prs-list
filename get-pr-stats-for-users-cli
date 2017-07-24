@@ -181,10 +181,9 @@ getPullRequests().then(result => {
                 if (cli.flags.console) {
                     console.log(newText, `@${name}`);
                 } else {
-                    console.log('slack send');
-                    // slackPost(newText, `@${name}`, SLACK_BOT_SERVICE).then(
-                    //     console.log
-                    // );
+                    slackPost(newText, `@${name}`, SLACK_BOT_SERVICE).then(
+                        console.log
+                    );
                 }
             },
             ''
