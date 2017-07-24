@@ -1,7 +1,7 @@
 'use strict';
 var https = require('https');
 
-module.exports = function(text, path) {
+module.exports = function(text, channel, path) {
     return new Promise(function(resolve, reject) {
         var options = {
             hostname: 'hooks.slack.com',
@@ -10,7 +10,8 @@ module.exports = function(text, path) {
         };
 
         var payload1 = {
-            channel: '@dkunin',
+            channel,
+            // channel: '@dkunin',
             username: 'Pull Request Bot',
             text,
             icon_emoji: ':cosy:'
@@ -30,7 +31,7 @@ module.exports = function(text, path) {
         req.on('error', function(e) {
             reject('problem with request: ' + e.message);
         });
-        req.write( JSON.stringify( payload1 ) );
+        req.write(JSON.stringify(payload1));
         req.end();
     });
 };

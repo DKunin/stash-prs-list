@@ -477,28 +477,6 @@
             },
             {
                 "user": {
-                    "name": "kvkryarov",
-                    "emailAddress": "kvkryarov@avito.ru",
-                    "id": 1469,
-                    "displayName": "Kostas Kryarov",
-                    "active": true,
-                    "slug": "kvkryarov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kvkryarov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "7a0dd245c5d94045f46128b6269fcfc80d29d124",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "kpaltsev",
                     "emailAddress": "kpaltsev@avito.ru",
                     "id": 551,
@@ -518,9 +496,52 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "kvkryarov",
+                    "emailAddress": "kvkryarov@avito.ru",
+                    "id": 1469,
+                    "displayName": "Kostas Kryarov",
+                    "active": true,
+                    "slug": "kvkryarov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kvkryarov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "7a0dd245c5d94045f46128b6269fcfc80d29d124",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [
+            {
+                "user": {
+                    "name": "kvgugaev",
+                    "emailAddress": "kvgugaev@avito.ru",
+                    "id": 1232,
+                    "displayName": "Kirill Gugaev",
+                    "active": true,
+                    "slug": "kvgugaev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kvgugaev"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
             {
                 "user": {
                     "name": "deployer",
@@ -555,27 +576,6 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/azubov"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "kvgugaev",
-                    "emailAddress": "kvgugaev@avito.ru",
-                    "id": 1232,
-                    "displayName": "Kirill Gugaev",
-                    "active": true,
-                    "slug": "kvgugaev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kvgugaev"
                             }
                         ]
                     }
@@ -730,28 +730,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "ysamsonov",
-                    "emailAddress": "ysamsonov@avito.ru",
-                    "id": 90,
-                    "displayName": "Yury Samsonov",
-                    "active": true,
-                    "slug": "ysamsonov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ysamsonov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "8a67f1b78ddf56b18e7c685897a128e43b76a2b7",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "ivlukyanov",
                     "emailAddress": "ivlukyanov@avito.ru",
                     "id": 1485,
@@ -768,6 +746,28 @@
                     }
                 },
                 "lastReviewedCommit": "7b904a1c01995bf7cd0b686a9b2b674ffc8b8af2",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "ysamsonov",
+                    "emailAddress": "ysamsonov@avito.ru",
+                    "id": 90,
+                    "displayName": "Yury Samsonov",
+                    "active": true,
+                    "slug": "ysamsonov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ysamsonov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "8a67f1b78ddf56b18e7c685897a128e43b76a2b7",
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -1130,28 +1130,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "ysamsonov",
-                    "emailAddress": "ysamsonov@avito.ru",
-                    "id": 90,
-                    "displayName": "Yury Samsonov",
-                    "active": true,
-                    "slug": "ysamsonov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ysamsonov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "456224e8af7ecb5d5d7a36f5a302e6b989c05c4e",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "kpaltsev",
                     "emailAddress": "kpaltsev@avito.ru",
                     "id": 551,
@@ -1163,6 +1141,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "456224e8af7ecb5d5d7a36f5a302e6b989c05c4e",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "ysamsonov",
+                    "emailAddress": "ysamsonov@avito.ru",
+                    "id": 90,
+                    "displayName": "Yury Samsonov",
+                    "active": true,
+                    "slug": "ysamsonov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ysamsonov"
                             }
                         ]
                     }
@@ -1363,6 +1363,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "skataev",
                     "emailAddress": "skataev@avito.ru",
                     "id": 220,
@@ -1385,27 +1406,6 @@
             },
             {
                 "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "ysamsonov",
                     "emailAddress": "ysamsonov@avito.ru",
                     "id": 90,
@@ -1417,6 +1417,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/ysamsonov"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "dkhasanov",
+                    "emailAddress": "dkhasanov@avito.ru",
+                    "id": 410,
+                    "displayName": "Dmitry Khasanov",
+                    "active": true,
+                    "slug": "dkhasanov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dkhasanov"
                             }
                         ]
                     }
@@ -1459,27 +1480,6 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/sorlov"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "dkhasanov",
-                    "emailAddress": "dkhasanov@avito.ru",
-                    "id": 410,
-                    "displayName": "Dmitry Khasanov",
-                    "active": true,
-                    "slug": "dkhasanov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkhasanov"
                             }
                         ]
                     }
@@ -1636,27 +1636,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "ngorovoy",
-                    "emailAddress": "ngorovoy@avito.ru",
-                    "id": 276,
-                    "displayName": "Nikolay Gorovoy",
-                    "active": true,
-                    "slug": "ngorovoy",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ngorovoy"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "vartemchuk",
                     "emailAddress": "vartemchuk@avito.ru",
                     "id": 736,
@@ -1676,30 +1655,30 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
-            }
-        ],
-        "participants": [
+            },
             {
                 "user": {
-                    "name": "ekonstantinov",
-                    "emailAddress": "ekonstantinov@avito.ru",
-                    "id": 1053,
-                    "displayName": "Evgeniy Konstantinov",
+                    "name": "ngorovoy",
+                    "emailAddress": "ngorovoy@avito.ru",
+                    "id": 276,
+                    "displayName": "Nikolay Gorovoy",
                     "active": true,
-                    "slug": "ekonstantinov",
+                    "slug": "ngorovoy",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/ekonstantinov"
+                                "href": "http://stash.msk.avito.ru/users/ngorovoy"
                             }
                         ]
                     }
                 },
-                "role": "PARTICIPANT",
+                "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
-            },
+            }
+        ],
+        "participants": [
             {
                 "user": {
                     "name": "varkadov",
@@ -1734,6 +1713,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/deployer"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "ekonstantinov",
+                    "emailAddress": "ekonstantinov@avito.ru",
+                    "id": 1053,
+                    "displayName": "Evgeniy Konstantinov",
+                    "active": true,
+                    "slug": "ekonstantinov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ekonstantinov"
                             }
                         ]
                     }
@@ -2281,7 +2281,7 @@
         "id": 18436,
         "version": 1,
         "title": "AVPM-42773 Added scroll handling of delivery messages",
-        "description": "Проблема следующая: к сообщениям доставки не скроллится контент к последнему сообщению.\r\n\r\nИзначально сообщения маленькие по высоте, а после подгрузки становятся достаточно большими, соответст��енно контент уезжает вниз, а контейнер к последнему сообщению не скроллится.",
+        "description": "Проблема следующая: к сообщениям доставки не скроллится контент к последнему сообщению.\r\n\r\nИзначально сообщения маленькие по высоте, а после подгрузки становятся достаточно большими, соответственно контент уезжает вниз, а контейнер к последнему сообщению не скроллится.",
         "state": "OPEN",
         "open": true,
         "closed": false,
@@ -2406,6 +2406,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "dakharin",
+                    "emailAddress": "dakharin@avito.ru",
+                    "id": 1813,
+                    "displayName": "Dmitriy Kharin",
+                    "active": true,
+                    "slug": "dakharin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dakharin"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -2425,27 +2446,6 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "dakharin",
-                    "emailAddress": "dakharin@avito.ru",
-                    "id": 1813,
-                    "displayName": "Dmitriy Kharin",
-                    "active": true,
-                    "slug": "dakharin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dakharin"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
             }
         ],
         "participants": [],
@@ -2761,28 +2761,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "isomov",
-                    "emailAddress": "isomov@avito.ru",
-                    "id": 913,
-                    "displayName": "Igor Somov",
-                    "active": true,
-                    "slug": "isomov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/isomov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "693a186b25763a803bc6e797c6242302c9a64b9c",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "ekonstantinov",
                     "emailAddress": "ekonstantinov@avito.ru",
                     "id": 1053,
@@ -2815,6 +2793,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/nvorobev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "693a186b25763a803bc6e797c6242302c9a64b9c",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "isomov",
+                    "emailAddress": "isomov@avito.ru",
+                    "id": 913,
+                    "displayName": "Igor Somov",
+                    "active": true,
+                    "slug": "isomov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/isomov"
                             }
                         ]
                     }
@@ -3511,6 +3511,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "alobashev",
+                    "emailAddress": "alobashev@avito.ru",
+                    "id": 262,
+                    "displayName": "Alexander Lobashev",
+                    "active": true,
+                    "slug": "alobashev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/alobashev"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "tvkorosteleva",
                     "emailAddress": "tvkorosteleva@avito.ru",
                     "id": 1214,
@@ -3530,27 +3551,6 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "alobashev",
-                    "emailAddress": "alobashev@avito.ru",
-                    "id": 262,
-                    "displayName": "Alexander Lobashev",
-                    "active": true,
-                    "slug": "alobashev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/alobashev"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
             }
         ],
         "participants": [
@@ -3743,28 +3743,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "sashipkov",
-                    "emailAddress": "sashipkov@avito.ru",
-                    "id": 1302,
-                    "displayName": "Sergey Shipkov",
-                    "active": true,
-                    "slug": "sashipkov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/sashipkov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "0df3fd1866a51aa7a8936d85b42026666abd4f5d",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "aakimov",
                     "emailAddress": "aakimov@avito.ru",
                     "id": 315,
@@ -3784,6 +3762,28 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "sashipkov",
+                    "emailAddress": "sashipkov@avito.ru",
+                    "id": 1302,
+                    "displayName": "Sergey Shipkov",
+                    "active": true,
+                    "slug": "sashipkov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/sashipkov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "0df3fd1866a51aa7a8936d85b42026666abd4f5d",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
             }
         ],
         "participants": [],
@@ -4544,28 +4544,6 @@
             },
             {
                 "user": {
-                    "name": "ekrivobokov",
-                    "emailAddress": "ekrivobokov@avito.ru",
-                    "id": 288,
-                    "displayName": "Eugene Krivobokov",
-                    "active": true,
-                    "slug": "ekrivobokov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ekrivobokov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "039b832512d803b4d19b45b26bffaad0a20f1670",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "NEEDS_WORK"
-            },
-            {
-                "user": {
                     "name": "skataev",
                     "emailAddress": "skataev@avito.ru",
                     "id": 220,
@@ -4585,30 +4563,31 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
-            }
-        ],
-        "participants": [
+            },
             {
                 "user": {
-                    "name": "vvsmal",
-                    "emailAddress": "vvsmal@avito.ru",
-                    "id": 1419,
-                    "displayName": "Vadim Smal",
+                    "name": "ekrivobokov",
+                    "emailAddress": "ekrivobokov@avito.ru",
+                    "id": 288,
+                    "displayName": "Eugene Krivobokov",
                     "active": true,
-                    "slug": "vvsmal",
+                    "slug": "ekrivobokov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vvsmal"
+                                "href": "http://stash.msk.avito.ru/users/ekrivobokov"
                             }
                         ]
                     }
                 },
-                "role": "PARTICIPANT",
+                "lastReviewedCommit": "039b832512d803b4d19b45b26bffaad0a20f1670",
+                "role": "REVIEWER",
                 "approved": false,
-                "status": "UNAPPROVED"
-            },
+                "status": "NEEDS_WORK"
+            }
+        ],
+        "participants": [
             {
                 "user": {
                     "name": "ausenok",
@@ -4622,6 +4601,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/ausenok"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "vvsmal",
+                    "emailAddress": "vvsmal@avito.ru",
+                    "id": 1419,
+                    "displayName": "Vadim Smal",
+                    "active": true,
+                    "slug": "vvsmal",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vvsmal"
                             }
                         ]
                     }
@@ -4945,28 +4945,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vionov",
-                    "emailAddress": "vionov@avito.ru",
-                    "id": 735,
-                    "displayName": "Vladimir Ionov",
-                    "active": true,
-                    "slug": "vionov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vionov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "0199b2a014e75c74488f73bd86ab7901d66160e9",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -5000,6 +4978,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/azubov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "0199b2a014e75c74488f73bd86ab7901d66160e9",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "vionov",
+                    "emailAddress": "vionov@avito.ru",
+                    "id": 735,
+                    "displayName": "Vladimir Ionov",
+                    "active": true,
+                    "slug": "vionov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vionov"
                             }
                         ]
                     }
@@ -5906,28 +5906,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vionov",
-                    "emailAddress": "vionov@avito.ru",
-                    "id": 735,
-                    "displayName": "Vladimir Ionov",
-                    "active": true,
-                    "slug": "vionov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vionov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "96a809350120624eb97290a011aa6c3b8965fcfc",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "alobashev",
                     "emailAddress": "alobashev@avito.ru",
                     "id": 262,
@@ -5944,6 +5922,28 @@
                     }
                 },
                 "lastReviewedCommit": "8d283e3a626c78f7c61032eb9e65dd017c6ce331",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "vionov",
+                    "emailAddress": "vionov@avito.ru",
+                    "id": 735,
+                    "displayName": "Vladimir Ionov",
+                    "active": true,
+                    "slug": "vionov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vionov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "96a809350120624eb97290a011aa6c3b8965fcfc",
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -6350,61 +6350,17 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
+                    "name": "vdudov",
+                    "emailAddress": "vdudov@avito.ru",
+                    "id": 96,
+                    "displayName": "Vitaly Dudov",
                     "active": true,
-                    "slug": "skataev",
+                    "slug": "vdudov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "dbc0f8c7dfdea96a7b76f527eb7e14489dbecf7a",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
-                    "active": true,
-                    "slug": "vartemchuk",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "dd9d6304a4c61f9feebaf9179ecad30c6d31c5a5",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "ibeltsov",
-                    "emailAddress": "ibeltsov@avito.ru",
-                    "id": 80,
-                    "displayName": "Igor Beltsov",
-                    "active": true,
-                    "slug": "ibeltsov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ibeltsov"
+                                "href": "http://stash.msk.avito.ru/users/vdudov"
                             }
                         ]
                     }
@@ -6437,21 +6393,65 @@
             },
             {
                 "user": {
-                    "name": "vdudov",
-                    "emailAddress": "vdudov@avito.ru",
-                    "id": 96,
-                    "displayName": "Vitaly Dudov",
+                    "name": "ibeltsov",
+                    "emailAddress": "ibeltsov@avito.ru",
+                    "id": 80,
+                    "displayName": "Igor Beltsov",
                     "active": true,
-                    "slug": "vdudov",
+                    "slug": "ibeltsov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vdudov"
+                                "href": "http://stash.msk.avito.ru/users/ibeltsov"
                             }
                         ]
                     }
                 },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
+                    "active": true,
+                    "slug": "vartemchuk",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "dd9d6304a4c61f9feebaf9179ecad30c6d31c5a5",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "dbc0f8c7dfdea96a7b76f527eb7e14489dbecf7a",
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -6460,21 +6460,22 @@
         "participants": [
             {
                 "user": {
-                    "name": "varkadov",
-                    "emailAddress": "varkadov@avito.ru",
-                    "id": 970,
-                    "displayName": "Vadim Arkadov",
+                    "name": "aamosov",
+                    "emailAddress": "aamosov@avito.ru",
+                    "id": 1004,
+                    "displayName": "Alexander Amosov",
                     "active": true,
-                    "slug": "varkadov",
+                    "slug": "aamosov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/varkadov"
+                                "href": "http://stash.msk.avito.ru/users/aamosov"
                             }
                         ]
                     }
                 },
+                "lastReviewedCommit": "90a2840b051bfb214a500bdd984e1817f24870c6",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -6502,6 +6503,27 @@
             },
             {
                 "user": {
+                    "name": "ichizh",
+                    "emailAddress": "ichizh@avito.ru",
+                    "id": 207,
+                    "displayName": "Irina Chizh",
+                    "active": true,
+                    "slug": "ichizh",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ichizh"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "anustinov",
                     "emailAddress": "anustinov@avito.ru",
                     "id": 1284,
@@ -6523,80 +6545,17 @@
             },
             {
                 "user": {
-                    "name": "ikremer",
-                    "emailAddress": "ikremer@avito.ru",
-                    "id": 904,
-                    "displayName": "Ilya Kremer",
+                    "name": "ekonstantinov",
+                    "emailAddress": "ekonstantinov@avito.ru",
+                    "id": 1053,
+                    "displayName": "Evgeniy Konstantinov",
                     "active": true,
-                    "slug": "ikremer",
+                    "slug": "ekonstantinov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/ikremer"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "mvspiridonov",
-                    "emailAddress": "mvspiridonov@avito.ru",
-                    "id": 1463,
-                    "displayName": "Maksim Spiridonov",
-                    "active": true,
-                    "slug": "mvspiridonov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/mvspiridonov"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "deployer",
-                    "emailAddress": "devnull.deployer@avito.ru",
-                    "id": 267,
-                    "displayName": "Deployer",
-                    "active": true,
-                    "slug": "deployer",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/deployer"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "ichizh",
-                    "emailAddress": "ichizh@avito.ru",
-                    "id": 207,
-                    "displayName": "Irina Chizh",
-                    "active": true,
-                    "slug": "ichizh",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ichizh"
+                                "href": "http://stash.msk.avito.ru/users/ekonstantinov"
                             }
                         ]
                     }
@@ -6648,39 +6607,80 @@
             },
             {
                 "user": {
-                    "name": "aamosov",
-                    "emailAddress": "aamosov@avito.ru",
-                    "id": 1004,
-                    "displayName": "Alexander Amosov",
+                    "name": "mvspiridonov",
+                    "emailAddress": "mvspiridonov@avito.ru",
+                    "id": 1463,
+                    "displayName": "Maksim Spiridonov",
                     "active": true,
-                    "slug": "aamosov",
+                    "slug": "mvspiridonov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/aamosov"
+                                "href": "http://stash.msk.avito.ru/users/mvspiridonov"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "90a2840b051bfb214a500bdd984e1817f24870c6",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
             },
             {
                 "user": {
-                    "name": "ekonstantinov",
-                    "emailAddress": "ekonstantinov@avito.ru",
-                    "id": 1053,
-                    "displayName": "Evgeniy Konstantinov",
+                    "name": "varkadov",
+                    "emailAddress": "varkadov@avito.ru",
+                    "id": 970,
+                    "displayName": "Vadim Arkadov",
                     "active": true,
-                    "slug": "ekonstantinov",
+                    "slug": "varkadov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/ekonstantinov"
+                                "href": "http://stash.msk.avito.ru/users/varkadov"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "deployer",
+                    "emailAddress": "devnull.deployer@avito.ru",
+                    "id": 267,
+                    "displayName": "Deployer",
+                    "active": true,
+                    "slug": "deployer",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/deployer"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "ikremer",
+                    "emailAddress": "ikremer@avito.ru",
+                    "id": 904,
+                    "displayName": "Ilya Kremer",
+                    "active": true,
+                    "slug": "ikremer",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ikremer"
                             }
                         ]
                     }
@@ -6836,28 +6836,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
-                    "active": true,
-                    "slug": "dkunin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "3c657195fdfb9c0e2cefe7e8816f924c046c4321",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "vartemchuk",
                     "emailAddress": "vartemchuk@avito.ru",
                     "id": 736,
@@ -6869,6 +6847,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "3c657195fdfb9c0e2cefe7e8816f924c046c4321",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
+                    "active": true,
+                    "slug": "dkunin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
                             }
                         ]
                     }
@@ -7094,27 +7094,6 @@
         "participants": [
             {
                 "user": {
-                    "name": "deployer",
-                    "emailAddress": "devnull.deployer@avito.ru",
-                    "id": 267,
-                    "displayName": "Deployer",
-                    "active": true,
-                    "slug": "deployer",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/deployer"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "alvov",
                     "id": 81,
                     "displayName": "alvov",
@@ -7130,6 +7109,27 @@
                     }
                 },
                 "lastReviewedCommit": "77b1d6b771fac33c2c9ab9f20ca75142b6c3403d",
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "deployer",
+                    "emailAddress": "devnull.deployer@avito.ru",
+                    "id": 267,
+                    "displayName": "Deployer",
+                    "active": true,
+                    "slug": "deployer",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/deployer"
+                            }
+                        ]
+                    }
+                },
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -7635,28 +7635,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
-                    "active": true,
-                    "slug": "vartemchuk",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "bda59f0d51244601ddace3557d54263d27be4ee9",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "aamosov",
                     "emailAddress": "aamosov@avito.ru",
                     "id": 1004,
@@ -7668,6 +7646,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/aamosov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "bda59f0d51244601ddace3557d54263d27be4ee9",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
+                    "active": true,
+                    "slug": "vartemchuk",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
                             }
                         ]
                     }
@@ -8200,50 +8200,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "sonovikov",
-                    "emailAddress": "sonovikov@avito.ru",
-                    "id": 1068,
-                    "displayName": "Sergey Novikov",
-                    "active": true,
-                    "slug": "sonovikov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/sonovikov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "bd2659db2af8a977d153af542342623411c8a52d",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "d69afba1c02cecb539eec28386dec77eae14ec33",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "aakimov",
                     "emailAddress": "aakimov@avito.ru",
                     "id": 315,
@@ -8284,6 +8240,50 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "d69afba1c02cecb539eec28386dec77eae14ec33",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "sonovikov",
+                    "emailAddress": "sonovikov@avito.ru",
+                    "id": 1068,
+                    "displayName": "Sergey Novikov",
+                    "active": true,
+                    "slug": "sonovikov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/sonovikov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "bd2659db2af8a977d153af542342623411c8a52d",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
             }
         ],
         "participants": [
@@ -8455,6 +8455,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "ysamsonov",
                     "emailAddress": "ysamsonov@avito.ru",
                     "id": 90,
@@ -8471,27 +8492,6 @@
                     }
                 },
                 "lastReviewedCommit": "c5f27b70c6a9dc5559b3c3b63d47fd194a56b4fd",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -8666,28 +8666,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vdudov",
-                    "emailAddress": "vdudov@avito.ru",
-                    "id": 96,
-                    "displayName": "Vitaly Dudov",
-                    "active": true,
-                    "slug": "vdudov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vdudov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "c98048246a9d64dfab516d9cd87998a8878e8206",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "vartemchuk",
                     "emailAddress": "vartemchuk@avito.ru",
                     "id": 736,
@@ -8699,6 +8677,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "c98048246a9d64dfab516d9cd87998a8878e8206",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vdudov",
+                    "emailAddress": "vdudov@avito.ru",
+                    "id": 96,
+                    "displayName": "Vitaly Dudov",
+                    "active": true,
+                    "slug": "vdudov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vdudov"
                             }
                         ]
                     }
@@ -9086,6 +9086,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "ysamsonov",
                     "emailAddress": "ysamsonov@avito.ru",
                     "id": 90,
@@ -9105,27 +9126,6 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "NEEDS_WORK"
-            },
-            {
-                "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
             }
         ],
         "participants": [
@@ -9760,7 +9760,7 @@
         "id": 18422,
         "version": 17,
         "title": "AVPM-38554 add dummy response for profile vas banners api v2",
-        "description": "* Добавленый новый ендпоинт `/2/profile/item/{id:integer}/vas/banners`\r\n* Сейчас отдает заглушку аналогичную первой версии (включая проверки доступа).\r\n* В рамках этой задаче больше не будем городить никакой логики.\r\n* Попутно перенес в неймспейсы",
+        "description": "* Добавленый новый ендпоинт `/2/profile/item/{id:integer}/vas/banners`\r\n* Сейчас отд��ет заглушку аналогичную первой версии (включая проверки доступа).\r\n* В рамках этой задаче больше не будем городить никакой логики.\r\n* Попутно перенес в неймспейсы",
         "state": "OPEN",
         "open": true,
         "closed": false,
@@ -10303,27 +10303,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
-                    "active": true,
-                    "slug": "skataev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "fkruchkov",
                     "emailAddress": "fkruchkov@avito.ru",
                     "id": 412,
@@ -10340,6 +10319,27 @@
                     }
                 },
                 "lastReviewedCommit": "6a2a78cf80d5f2f485ddf278b3f8e5bffcb2418e",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
+                            }
+                        ]
+                    }
+                },
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -10936,27 +10936,6 @@
         "participants": [
             {
                 "user": {
-                    "name": "githook",
-                    "emailAddress": "devnull.githook@avito.ru",
-                    "id": 153,
-                    "displayName": "Git",
-                    "active": true,
-                    "slug": "githook",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/githook"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "deployer",
                     "emailAddress": "devnull.deployer@avito.ru",
                     "id": 267,
@@ -10968,6 +10947,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/deployer"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "githook",
+                    "emailAddress": "devnull.githook@avito.ru",
+                    "id": 153,
+                    "displayName": "Git",
+                    "active": true,
+                    "slug": "githook",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/githook"
                             }
                         ]
                     }
@@ -11353,27 +11353,6 @@
             },
             {
                 "user": {
-                    "name": "amsmagin",
-                    "emailAddress": "amsmagin@avito.ru",
-                    "id": 1525,
-                    "displayName": "Aleksandr Smagin",
-                    "active": true,
-                    "slug": "amsmagin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/amsmagin"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "vtertyshnikov",
                     "emailAddress": "vtertyshnikov@avito.ru",
                     "id": 730,
@@ -11385,6 +11364,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/vtertyshnikov"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "amsmagin",
+                    "emailAddress": "amsmagin@avito.ru",
+                    "id": 1525,
+                    "displayName": "Aleksandr Smagin",
+                    "active": true,
+                    "slug": "amsmagin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/amsmagin"
                             }
                         ]
                     }
@@ -11536,28 +11536,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
-                    "active": true,
-                    "slug": "skataev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "22e57c7d70d5bb7ad8b961f981c7850955c27a65",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "aakimov",
                     "emailAddress": "aakimov@avito.ru",
                     "id": 315,
@@ -11591,6 +11569,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/ibeltsov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "22e57c7d70d5bb7ad8b961f981c7850955c27a65",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
                             }
                         ]
                     }
@@ -11770,17 +11770,17 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vmsamoylov",
-                    "emailAddress": "vmsamoylov@avito.ru",
-                    "id": 1732,
-                    "displayName": "Vladislav Samoylov",
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
                     "active": true,
-                    "slug": "vmsamoylov",
+                    "slug": "dkunin",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vmsamoylov"
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
                             }
                         ]
                     }
@@ -11814,17 +11814,17 @@
             },
             {
                 "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
+                    "name": "vmsamoylov",
+                    "emailAddress": "vmsamoylov@avito.ru",
+                    "id": 1732,
+                    "displayName": "Vladislav Samoylov",
                     "active": true,
-                    "slug": "dkunin",
+                    "slug": "vmsamoylov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
+                                "href": "http://stash.msk.avito.ru/users/vmsamoylov"
                             }
                         ]
                     }
@@ -11836,27 +11836,6 @@
             }
         ],
         "participants": [
-            {
-                "user": {
-                    "name": "alvov",
-                    "id": 81,
-                    "displayName": "alvov",
-                    "active": false,
-                    "slug": "alvov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/alvov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "14e384f16e78874c3f3580722c8d1c33c706bdf2",
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
             {
                 "user": {
                     "name": "vtertyshnikov",
@@ -11875,6 +11854,27 @@
                     }
                 },
                 "lastReviewedCommit": "6a1959fbce0cb24f033762f3c1652daa7442ac50",
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "alvov",
+                    "id": 81,
+                    "displayName": "alvov",
+                    "active": false,
+                    "slug": "alvov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/alvov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "14e384f16e78874c3f3580722c8d1c33c706bdf2",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -12211,17 +12211,17 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "sfedchenko",
-                    "emailAddress": "sfedchenko@avito.ru",
-                    "id": 962,
-                    "displayName": "Sergey Fedchenko",
+                    "name": "ibeltsov",
+                    "emailAddress": "ibeltsov@avito.ru",
+                    "id": 80,
+                    "displayName": "Igor Beltsov",
                     "active": true,
-                    "slug": "sfedchenko",
+                    "slug": "ibeltsov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/sfedchenko"
+                                "href": "http://stash.msk.avito.ru/users/ibeltsov"
                             }
                         ]
                     }
@@ -12254,27 +12254,6 @@
             },
             {
                 "user": {
-                    "name": "ibeltsov",
-                    "emailAddress": "ibeltsov@avito.ru",
-                    "id": 80,
-                    "displayName": "Igor Beltsov",
-                    "active": true,
-                    "slug": "ibeltsov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ibeltsov"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "vdudov",
                     "emailAddress": "vdudov@avito.ru",
                     "id": 96,
@@ -12291,6 +12270,27 @@
                     }
                 },
                 "lastReviewedCommit": "34a463bf2e21ecab94848253a911c12154d1c172",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "sfedchenko",
+                    "emailAddress": "sfedchenko@avito.ru",
+                    "id": 962,
+                    "displayName": "Sergey Fedchenko",
+                    "active": true,
+                    "slug": "sfedchenko",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/sfedchenko"
+                            }
+                        ]
+                    }
+                },
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -12442,28 +12442,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
-                    "active": true,
-                    "slug": "skataev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "5a7a7ba48c09876ba29a293219e4f79452923a95",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "nmozharov",
                     "emailAddress": "nmozharov@avito.ru",
                     "id": 1018,
@@ -12483,26 +12461,49 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "5a7a7ba48c09876ba29a293219e4f79452923a95",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
             }
         ],
         "participants": [
             {
                 "user": {
-                    "name": "ikkibardin",
-                    "emailAddress": "ikkibardin@avito.ru",
-                    "id": 1830,
-                    "displayName": "Ilya Kibardin",
+                    "name": "vionov",
+                    "emailAddress": "vionov@avito.ru",
+                    "id": 735,
+                    "displayName": "Vladimir Ionov",
                     "active": true,
-                    "slug": "ikkibardin",
+                    "slug": "vionov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/ikkibardin"
+                                "href": "http://stash.msk.avito.ru/users/vionov"
                             }
                         ]
                     }
                 },
+                "lastReviewedCommit": "5603d4e21ef53cf7481ea7fba90b14951742580b",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -12531,22 +12532,21 @@
             },
             {
                 "user": {
-                    "name": "vionov",
-                    "emailAddress": "vionov@avito.ru",
-                    "id": 735,
-                    "displayName": "Vladimir Ionov",
+                    "name": "ikkibardin",
+                    "emailAddress": "ikkibardin@avito.ru",
+                    "id": 1830,
+                    "displayName": "Ilya Kibardin",
                     "active": true,
-                    "slug": "vionov",
+                    "slug": "ikkibardin",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vionov"
+                                "href": "http://stash.msk.avito.ru/users/ikkibardin"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "5603d4e21ef53cf7481ea7fba90b14951742580b",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -12693,50 +12693,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "aserebryakov",
-                    "emailAddress": "aserebryakov@avito.ru",
-                    "id": 1061,
-                    "displayName": "Artem Serebryakov",
-                    "active": true,
-                    "slug": "aserebryakov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/aserebryakov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "283b0b27a175556084f06d4acb7744d6c14cd754",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "5dc71348a9a80140ef79bf19965165bf01a51349",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "vupornikov",
                     "emailAddress": "vupornikov@avito.ru",
                     "id": 734,
@@ -12759,6 +12715,28 @@
             },
             {
                 "user": {
+                    "name": "aserebryakov",
+                    "emailAddress": "aserebryakov@avito.ru",
+                    "id": 1061,
+                    "displayName": "Artem Serebryakov",
+                    "active": true,
+                    "slug": "aserebryakov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/aserebryakov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "283b0b27a175556084f06d4acb7744d6c14cd754",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
                     "name": "skataev",
                     "emailAddress": "skataev@avito.ru",
                     "id": 220,
@@ -12778,6 +12756,28 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "5dc71348a9a80140ef79bf19965165bf01a51349",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [
@@ -12794,49 +12794,6 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/dsgryazin"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "ekrivobokov",
-                    "emailAddress": "ekrivobokov@avito.ru",
-                    "id": 288,
-                    "displayName": "Eugene Krivobokov",
-                    "active": true,
-                    "slug": "ekrivobokov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ekrivobokov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "be595091b931474a43db5e98cebb0cd70b0f23c5",
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "avkovalev",
-                    "emailAddress": "avkovalev@avito.ru",
-                    "id": 1054,
-                    "displayName": "Andrey Kovalev",
-                    "active": true,
-                    "slug": "avkovalev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/avkovalev"
                             }
                         ]
                     }
@@ -12868,6 +12825,27 @@
             },
             {
                 "user": {
+                    "name": "avkovalev",
+                    "emailAddress": "avkovalev@avito.ru",
+                    "id": 1054,
+                    "displayName": "Andrey Kovalev",
+                    "active": true,
+                    "slug": "avkovalev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/avkovalev"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "aakudryavtsev",
                     "emailAddress": "aakudryavtsev@avito.ru",
                     "id": 1407,
@@ -12879,6 +12857,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/aakudryavtsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "be595091b931474a43db5e98cebb0cd70b0f23c5",
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "ekrivobokov",
+                    "emailAddress": "ekrivobokov@avito.ru",
+                    "id": 288,
+                    "displayName": "Eugene Krivobokov",
+                    "active": true,
+                    "slug": "ekrivobokov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ekrivobokov"
                             }
                         ]
                     }
@@ -13288,22 +13288,21 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "aakudryavtsev",
-                    "emailAddress": "aakudryavtsev@avito.ru",
-                    "id": 1407,
-                    "displayName": "Aleksey Kudryavtsev",
+                    "name": "eakasatkin",
+                    "emailAddress": "eakasatkin@avito.ru",
+                    "id": 1226,
+                    "displayName": "Evgeniy Kasatkin",
                     "active": true,
-                    "slug": "aakudryavtsev",
+                    "slug": "eakasatkin",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/aakudryavtsev"
+                                "href": "http://stash.msk.avito.ru/users/eakasatkin"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "3bdb2df17b2fbef3bae203ded047f5d41c14ea9d",
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -13329,6 +13328,49 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vdudov",
+                    "emailAddress": "vdudov@avito.ru",
+                    "id": 96,
+                    "displayName": "Vitaly Dudov",
+                    "active": true,
+                    "slug": "vdudov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vdudov"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "aakudryavtsev",
+                    "emailAddress": "aakudryavtsev@avito.ru",
+                    "id": 1407,
+                    "displayName": "Aleksey Kudryavtsev",
+                    "active": true,
+                    "slug": "aakudryavtsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/aakudryavtsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "3bdb2df17b2fbef3bae203ded047f5d41c14ea9d",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             },
             {
                 "user": {
@@ -13364,48 +13406,6 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/avkovalev"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "vdudov",
-                    "emailAddress": "vdudov@avito.ru",
-                    "id": 96,
-                    "displayName": "Vitaly Dudov",
-                    "active": true,
-                    "slug": "vdudov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vdudov"
-                            }
-                        ]
-                    }
-                },
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "eakasatkin",
-                    "emailAddress": "eakasatkin@avito.ru",
-                    "id": 1226,
-                    "displayName": "Evgeniy Kasatkin",
-                    "active": true,
-                    "slug": "eakasatkin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/eakasatkin"
                             }
                         ]
                     }
@@ -14123,24 +14123,25 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "ngorovoy",
-                    "emailAddress": "ngorovoy@avito.ru",
-                    "id": 276,
-                    "displayName": "Nikolay Gorovoy",
+                    "name": "avkuporosov",
+                    "emailAddress": "avkuporosov@avito.ru",
+                    "id": 1234,
+                    "displayName": "Aleksandr Kuporosov",
                     "active": true,
-                    "slug": "ngorovoy",
+                    "slug": "avkuporosov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/ngorovoy"
+                                "href": "http://stash.msk.avito.ru/users/avkuporosov"
                             }
                         ]
                     }
                 },
+                "lastReviewedCommit": "a710bb6fbd49ced6256d7fe314f7081e95423d3a",
                 "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
+                "approved": true,
+                "status": "APPROVED"
             },
             {
                 "user": {
@@ -14188,25 +14189,24 @@
             },
             {
                 "user": {
-                    "name": "avkuporosov",
-                    "emailAddress": "avkuporosov@avito.ru",
-                    "id": 1234,
-                    "displayName": "Aleksandr Kuporosov",
+                    "name": "ngorovoy",
+                    "emailAddress": "ngorovoy@avito.ru",
+                    "id": 276,
+                    "displayName": "Nikolay Gorovoy",
                     "active": true,
-                    "slug": "avkuporosov",
+                    "slug": "ngorovoy",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/avkuporosov"
+                                "href": "http://stash.msk.avito.ru/users/ngorovoy"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "a710bb6fbd49ced6256d7fe314f7081e95423d3a",
                 "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [],
@@ -14514,28 +14514,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
-                    "active": true,
-                    "slug": "dkunin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "c56626fd7cdf83a35cc6994f4b8e6ae0ee61a417",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "amsmagin",
                     "emailAddress": "amsmagin@avito.ru",
                     "id": 1525,
@@ -14558,17 +14536,39 @@
             },
             {
                 "user": {
-                    "name": "aamosov",
-                    "emailAddress": "aamosov@avito.ru",
-                    "id": 1004,
-                    "displayName": "Alexander Amosov",
+                    "name": "tvkorosteleva",
+                    "emailAddress": "tvkorosteleva@avito.ru",
+                    "id": 1214,
+                    "displayName": "Tatyana Korosteleva",
                     "active": true,
-                    "slug": "aamosov",
+                    "slug": "tvkorosteleva",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/aamosov"
+                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "c56626fd7cdf83a35cc6994f4b8e6ae0ee61a417",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
+                    "active": true,
+                    "slug": "dkunin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
                             }
                         ]
                     }
@@ -14602,17 +14602,17 @@
             },
             {
                 "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
+                    "name": "aamosov",
+                    "emailAddress": "aamosov@avito.ru",
+                    "id": 1004,
+                    "displayName": "Alexander Amosov",
                     "active": true,
-                    "slug": "vartemchuk",
+                    "slug": "aamosov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                                "href": "http://stash.msk.avito.ru/users/aamosov"
                             }
                         ]
                     }
@@ -14624,17 +14624,17 @@
             },
             {
                 "user": {
-                    "name": "tvkorosteleva",
-                    "emailAddress": "tvkorosteleva@avito.ru",
-                    "id": 1214,
-                    "displayName": "Tatyana Korosteleva",
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
                     "active": true,
-                    "slug": "tvkorosteleva",
+                    "slug": "vartemchuk",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
                             }
                         ]
                     }
@@ -14836,72 +14836,6 @@
             },
             {
                 "user": {
-                    "name": "vupornikov",
-                    "emailAddress": "vupornikov@avito.ru",
-                    "id": 734,
-                    "displayName": "Vasiliy Upornikov",
-                    "active": true,
-                    "slug": "vupornikov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vupornikov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "672bf9292be55bf245ef686a048d2486eefd6294",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
-                    "active": true,
-                    "slug": "skataev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "672bf9292be55bf245ef686a048d2486eefd6294",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "kpaltsev",
-                    "emailAddress": "kpaltsev@avito.ru",
-                    "id": 551,
-                    "displayName": "Kirill Paltsev",
-                    "active": true,
-                    "slug": "kpaltsev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "c8890f69060945ed3bec04b8ccf59df53d39e139",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "akharchuk",
                     "emailAddress": "akharchuk@avito.ru",
                     "id": 557,
@@ -14942,6 +14876,72 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "672bf9292be55bf245ef686a048d2486eefd6294",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vupornikov",
+                    "emailAddress": "vupornikov@avito.ru",
+                    "id": 734,
+                    "displayName": "Vasiliy Upornikov",
+                    "active": true,
+                    "slug": "vupornikov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vupornikov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "672bf9292be55bf245ef686a048d2486eefd6294",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "kpaltsev",
+                    "emailAddress": "kpaltsev@avito.ru",
+                    "id": 551,
+                    "displayName": "Kirill Paltsev",
+                    "active": true,
+                    "slug": "kpaltsev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/kpaltsev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "c8890f69060945ed3bec04b8ccf59df53d39e139",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [],
@@ -15090,6 +15090,27 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "ikiselev",
+                    "emailAddress": "ikiselev@avito.ru",
+                    "id": 307,
+                    "displayName": "Ivan Kiselev",
+                    "active": true,
+                    "slug": "ikiselev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/ikiselev"
+                            }
+                        ]
+                    }
+                },
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
                     "name": "nbalakirev",
                     "emailAddress": "nbalakirev@avito.ru",
                     "id": 708,
@@ -15106,27 +15127,6 @@
                     }
                 },
                 "lastReviewedCommit": "ec51342c9f60ddab428ab4b9c107eaacfa0c3fbb",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "ikiselev",
-                    "emailAddress": "ikiselev@avito.ru",
-                    "id": 307,
-                    "displayName": "Ivan Kiselev",
-                    "active": true,
-                    "slug": "ikiselev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/ikiselev"
-                            }
-                        ]
-                    }
-                },
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -15648,28 +15648,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
-                    "active": true,
-                    "slug": "vartemchuk",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "ce6b94068931a9f9d58e30580892efc3dd92ef47",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "svdmitrievskiy",
                     "emailAddress": "svdmitrievskiy@avito.ru",
                     "id": 1280,
@@ -15681,6 +15659,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/svdmitrievskiy"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "ce6b94068931a9f9d58e30580892efc3dd92ef47",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
+                    "active": true,
+                    "slug": "vartemchuk",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
                             }
                         ]
                     }
@@ -16024,17 +16024,17 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "avkuporosov",
-                    "emailAddress": "avkuporosov@avito.ru",
-                    "id": 1234,
-                    "displayName": "Aleksandr Kuporosov",
+                    "name": "sfedchenko",
+                    "emailAddress": "sfedchenko@avito.ru",
+                    "id": 962,
+                    "displayName": "Sergey Fedchenko",
                     "active": true,
-                    "slug": "avkuporosov",
+                    "slug": "sfedchenko",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/avkuporosov"
+                                "href": "http://stash.msk.avito.ru/users/sfedchenko"
                             }
                         ]
                     }
@@ -16068,17 +16068,17 @@
             },
             {
                 "user": {
-                    "name": "sfedchenko",
-                    "emailAddress": "sfedchenko@avito.ru",
-                    "id": 962,
-                    "displayName": "Sergey Fedchenko",
+                    "name": "avkuporosov",
+                    "emailAddress": "avkuporosov@avito.ru",
+                    "id": 1234,
+                    "displayName": "Aleksandr Kuporosov",
                     "active": true,
-                    "slug": "sfedchenko",
+                    "slug": "avkuporosov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/sfedchenko"
+                                "href": "http://stash.msk.avito.ru/users/avkuporosov"
                             }
                         ]
                     }
@@ -16396,28 +16396,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "alobashev",
-                    "emailAddress": "alobashev@avito.ru",
-                    "id": 262,
-                    "displayName": "Alexander Lobashev",
-                    "active": true,
-                    "slug": "alobashev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/alobashev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "052841fbee4267023c2860c23ac76e90a6fb4947",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -16437,6 +16415,28 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "alobashev",
+                    "emailAddress": "alobashev@avito.ru",
+                    "id": 262,
+                    "displayName": "Alexander Lobashev",
+                    "active": true,
+                    "slug": "alobashev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/alobashev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "052841fbee4267023c2860c23ac76e90a6fb4947",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [],
@@ -16769,27 +16769,6 @@
         "participants": [
             {
                 "user": {
-                    "name": "alobashev",
-                    "emailAddress": "alobashev@avito.ru",
-                    "id": 262,
-                    "displayName": "Alexander Lobashev",
-                    "active": true,
-                    "slug": "alobashev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/alobashev"
-                            }
-                        ]
-                    }
-                },
-                "role": "PARTICIPANT",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "alvov",
                     "id": 81,
                     "displayName": "alvov",
@@ -16805,6 +16784,27 @@
                     }
                 },
                 "lastReviewedCommit": "5fe7b191a1e4c85ddac988ab249353e419c0f8fd",
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "alobashev",
+                    "emailAddress": "alobashev@avito.ru",
+                    "id": 262,
+                    "displayName": "Alexander Lobashev",
+                    "active": true,
+                    "slug": "alobashev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/alobashev"
+                            }
+                        ]
+                    }
+                },
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -17470,28 +17470,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
-                    "active": true,
-                    "slug": "vartemchuk",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "b17036249a682f3262e9e16feeec44fbbca3bf25",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "kpaltsev",
                     "emailAddress": "kpaltsev@avito.ru",
                     "id": 551,
@@ -17511,22 +17489,44 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
+                    "active": true,
+                    "slug": "vartemchuk",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "b17036249a682f3262e9e16feeec44fbbca3bf25",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
             }
         ],
         "participants": [
             {
                 "user": {
-                    "name": "kvgugaev",
-                    "emailAddress": "kvgugaev@avito.ru",
-                    "id": 1232,
-                    "displayName": "Kirill Gugaev",
+                    "name": "esfedyushkin",
+                    "emailAddress": "esfedyushkin@avito.ru",
+                    "id": 1528,
+                    "displayName": "Evgeniy Fedyushkin",
                     "active": true,
-                    "slug": "kvgugaev",
+                    "slug": "esfedyushkin",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/kvgugaev"
+                                "href": "http://stash.msk.avito.ru/users/esfedyushkin"
                             }
                         ]
                     }
@@ -17558,17 +17558,17 @@
             },
             {
                 "user": {
-                    "name": "esfedyushkin",
-                    "emailAddress": "esfedyushkin@avito.ru",
-                    "id": 1528,
-                    "displayName": "Evgeniy Fedyushkin",
+                    "name": "kvgugaev",
+                    "emailAddress": "kvgugaev@avito.ru",
+                    "id": 1232,
+                    "displayName": "Kirill Gugaev",
                     "active": true,
-                    "slug": "esfedyushkin",
+                    "slug": "kvgugaev",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/esfedyushkin"
+                                "href": "http://stash.msk.avito.ru/users/kvgugaev"
                             }
                         ]
                     }
@@ -17935,28 +17935,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "tvkorosteleva",
-                    "emailAddress": "tvkorosteleva@avito.ru",
-                    "id": 1214,
-                    "displayName": "Tatyana Korosteleva",
-                    "active": true,
-                    "slug": "tvkorosteleva",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "9f25b8426c3dc1f5575367c1be3bf214b6c47cf3",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "myuveselov",
                     "emailAddress": "myuveselov@avito.ru",
                     "id": 1453,
@@ -17968,6 +17946,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/myuveselov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "9f25b8426c3dc1f5575367c1be3bf214b6c47cf3",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "tvkorosteleva",
+                    "emailAddress": "tvkorosteleva@avito.ru",
+                    "id": 1214,
+                    "displayName": "Tatyana Korosteleva",
+                    "active": true,
+                    "slug": "tvkorosteleva",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
                             }
                         ]
                     }
@@ -18834,28 +18834,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
-                    "active": true,
-                    "slug": "dkunin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "0e9af7ad2b7011f550d03b33217c19a481d4691c",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "svdmitrievskiy",
                     "emailAddress": "svdmitrievskiy@avito.ru",
                     "id": 1280,
@@ -18867,6 +18845,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/svdmitrievskiy"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "0e9af7ad2b7011f550d03b33217c19a481d4691c",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
+                    "active": true,
+                    "slug": "dkunin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
                             }
                         ]
                     }
@@ -19020,50 +19020,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "skataev",
-                    "emailAddress": "skataev@avito.ru",
-                    "id": 220,
-                    "displayName": "Semen Kataev",
-                    "active": true,
-                    "slug": "skataev",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/skataev"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "c2cdbb6fc5d6db52c10c8b77305c25054af41f89",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
-                    "active": true,
-                    "slug": "dkunin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "f754bd43f925ee3f7be0af5e2e907016b2ee3001",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "iddolgiy",
                     "emailAddress": "iddolgiy@avito.ru",
                     "id": 1467,
@@ -19105,30 +19061,53 @@
                 "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
-            }
-        ],
-        "participants": [
+            },
             {
                 "user": {
-                    "name": "fkruchkov",
-                    "emailAddress": "fkruchkov@avito.ru",
-                    "id": 412,
-                    "displayName": "Frol Kruchkov",
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
                     "active": true,
-                    "slug": "fkruchkov",
+                    "slug": "dkunin",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/fkruchkov"
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
                             }
                         ]
                     }
                 },
-                "role": "PARTICIPANT",
+                "lastReviewedCommit": "f754bd43f925ee3f7be0af5e2e907016b2ee3001",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "skataev",
+                    "emailAddress": "skataev@avito.ru",
+                    "id": 220,
+                    "displayName": "Semen Kataev",
+                    "active": true,
+                    "slug": "skataev",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/skataev"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "c2cdbb6fc5d6db52c10c8b77305c25054af41f89",
+                "role": "REVIEWER",
                 "approved": false,
                 "status": "UNAPPROVED"
-            },
+            }
+        ],
+        "participants": [
             {
                 "user": {
                     "name": "alvov",
@@ -19163,6 +19142,27 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "role": "PARTICIPANT",
+                "approved": false,
+                "status": "UNAPPROVED"
+            },
+            {
+                "user": {
+                    "name": "fkruchkov",
+                    "emailAddress": "fkruchkov@avito.ru",
+                    "id": 412,
+                    "displayName": "Frol Kruchkov",
+                    "active": true,
+                    "slug": "fkruchkov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/fkruchkov"
                             }
                         ]
                     }
@@ -19508,6 +19508,28 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "vupornikov",
+                    "emailAddress": "vupornikov@avito.ru",
+                    "id": 734,
+                    "displayName": "Vasiliy Upornikov",
+                    "active": true,
+                    "slug": "vupornikov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vupornikov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "c0c36b11f931125363aecc40957a7e1fe050119e",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
                     "name": "vkryukov",
                     "emailAddress": "vkryukov@avito.ru",
                     "id": 609,
@@ -19541,28 +19563,6 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/akharchuk"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "c0c36b11f931125363aecc40957a7e1fe050119e",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "vupornikov",
-                    "emailAddress": "vupornikov@avito.ru",
-                    "id": 734,
-                    "displayName": "Vasiliy Upornikov",
-                    "active": true,
-                    "slug": "vupornikov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vupornikov"
                             }
                         ]
                     }
@@ -20055,28 +20055,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vmsamoylov",
-                    "emailAddress": "vmsamoylov@avito.ru",
-                    "id": 1732,
-                    "displayName": "Vladislav Samoylov",
-                    "active": true,
-                    "slug": "vmsamoylov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/vmsamoylov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "d02cee1f09197bed29af53dd49577dfaeee11f5c",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "vartemchuk",
                     "emailAddress": "vartemchuk@avito.ru",
                     "id": 736,
@@ -20088,6 +20066,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "d02cee1f09197bed29af53dd49577dfaeee11f5c",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "vmsamoylov",
+                    "emailAddress": "vmsamoylov@avito.ru",
+                    "id": 1732,
+                    "displayName": "Vladislav Samoylov",
+                    "active": true,
+                    "slug": "vmsamoylov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/vmsamoylov"
                             }
                         ]
                     }
@@ -20404,28 +20404,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "aaromanov",
-                    "emailAddress": "aaromanov@avito.ru",
-                    "id": 1271,
-                    "displayName": "Andrey Romanov",
-                    "active": true,
-                    "slug": "aaromanov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/aaromanov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "584ff7c4676bc1f0d179652dbf526453406dc049",
-                "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
-            },
-            {
-                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -20445,6 +20423,28 @@
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "aaromanov",
+                    "emailAddress": "aaromanov@avito.ru",
+                    "id": 1271,
+                    "displayName": "Andrey Romanov",
+                    "active": true,
+                    "slug": "aaromanov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/aaromanov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "584ff7c4676bc1f0d179652dbf526453406dc049",
+                "role": "REVIEWER",
+                "approved": false,
+                "status": "UNAPPROVED"
             }
         ],
         "participants": [],
@@ -21147,28 +21147,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "aamosov",
-                    "emailAddress": "aamosov@avito.ru",
-                    "id": 1004,
-                    "displayName": "Alexander Amosov",
-                    "active": true,
-                    "slug": "aamosov",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/aamosov"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "cf5ebe79f83a646ecfa7e9b2edcd01f88cb3d041",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -21180,6 +21158,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/dkunin"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "cf5ebe79f83a646ecfa7e9b2edcd01f88cb3d041",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "aamosov",
+                    "emailAddress": "aamosov@avito.ru",
+                    "id": 1004,
+                    "displayName": "Alexander Amosov",
+                    "active": true,
+                    "slug": "aamosov",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/aamosov"
                             }
                         ]
                     }
@@ -21333,25 +21333,25 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "vionov",
-                    "emailAddress": "vionov@avito.ru",
-                    "id": 735,
-                    "displayName": "Vladimir Ionov",
+                    "name": "aamosov",
+                    "emailAddress": "aamosov@avito.ru",
+                    "id": 1004,
+                    "displayName": "Alexander Amosov",
                     "active": true,
-                    "slug": "vionov",
+                    "slug": "aamosov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vionov"
+                                "href": "http://stash.msk.avito.ru/users/aamosov"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "d2218d5e2ea69791b6853c01468f47ac33af4136",
+                "lastReviewedCommit": "19949e6f301ef03dd4b1e26c30d51518d5dd0026",
                 "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
+                "approved": false,
+                "status": "UNAPPROVED"
             },
             {
                 "user": {
@@ -21377,25 +21377,25 @@
             },
             {
                 "user": {
-                    "name": "aamosov",
-                    "emailAddress": "aamosov@avito.ru",
-                    "id": 1004,
-                    "displayName": "Alexander Amosov",
+                    "name": "vionov",
+                    "emailAddress": "vionov@avito.ru",
+                    "id": 735,
+                    "displayName": "Vladimir Ionov",
                     "active": true,
-                    "slug": "aamosov",
+                    "slug": "vionov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/aamosov"
+                                "href": "http://stash.msk.avito.ru/users/vionov"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "19949e6f301ef03dd4b1e26c30d51518d5dd0026",
+                "lastReviewedCommit": "d2218d5e2ea69791b6853c01468f47ac33af4136",
                 "role": "REVIEWER",
-                "approved": false,
-                "status": "UNAPPROVED"
+                "approved": true,
+                "status": "APPROVED"
             }
         ],
         "participants": [
@@ -21774,6 +21774,28 @@
         "reviewers": [
             {
                 "user": {
+                    "name": "dkunin",
+                    "emailAddress": "dkunin@avito.ru",
+                    "id": 610,
+                    "displayName": "Dmitry Kunin",
+                    "active": true,
+                    "slug": "dkunin",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/dkunin"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "422f9e9d0ad280d94fa43ba28800ac5adb1becb2",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
                     "name": "rsbubnov",
                     "emailAddress": "rsbubnov@avito.ru",
                     "id": 1288,
@@ -21812,28 +21834,6 @@
                     }
                 },
                 "lastReviewedCommit": "be4b433efbe3ef8f7968a4cd88d457aebaf7a716",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
-                    "name": "dkunin",
-                    "emailAddress": "dkunin@avito.ru",
-                    "id": 610,
-                    "displayName": "Dmitry Kunin",
-                    "active": true,
-                    "slug": "dkunin",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/dkunin"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "422f9e9d0ad280d94fa43ba28800ac5adb1becb2",
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
@@ -22193,17 +22193,17 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "azubov",
-                    "emailAddress": "azubov@avito.ru",
-                    "id": 222,
-                    "displayName": "Alexander Zubov",
+                    "name": "nmozharov",
+                    "emailAddress": "nmozharov@avito.ru",
+                    "id": 1018,
+                    "displayName": "Nikolay Mozharov",
                     "active": true,
-                    "slug": "azubov",
+                    "slug": "nmozharov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/azubov"
+                                "href": "http://stash.msk.avito.ru/users/nmozharov"
                             }
                         ]
                     }
@@ -22235,17 +22235,17 @@
             },
             {
                 "user": {
-                    "name": "nmozharov",
-                    "emailAddress": "nmozharov@avito.ru",
-                    "id": 1018,
-                    "displayName": "Nikolay Mozharov",
+                    "name": "azubov",
+                    "emailAddress": "azubov@avito.ru",
+                    "id": 222,
+                    "displayName": "Alexander Zubov",
                     "active": true,
-                    "slug": "nmozharov",
+                    "slug": "azubov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/nmozharov"
+                                "href": "http://stash.msk.avito.ru/users/azubov"
                             }
                         ]
                     }
@@ -22589,28 +22589,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "svdmitrievskiy",
-                    "emailAddress": "svdmitrievskiy@avito.ru",
-                    "id": 1280,
-                    "displayName": "Sergey Dmitrievskiy",
-                    "active": true,
-                    "slug": "svdmitrievskiy",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/svdmitrievskiy"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "d9235985320cdf538f8c61d9d480732c9134ca09",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "dkunin",
                     "emailAddress": "dkunin@avito.ru",
                     "id": 610,
@@ -22627,6 +22605,28 @@
                     }
                 },
                 "lastReviewedCommit": "d64f4792fffb67365add33b508f0c7badd352b0c",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "svdmitrievskiy",
+                    "emailAddress": "svdmitrievskiy@avito.ru",
+                    "id": 1280,
+                    "displayName": "Sergey Dmitrievskiy",
+                    "active": true,
+                    "slug": "svdmitrievskiy",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/svdmitrievskiy"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "d9235985320cdf538f8c61d9d480732c9134ca09",
                 "role": "REVIEWER",
                 "approved": true,
                 "status": "APPROVED"
@@ -22778,28 +22778,6 @@
         "reviewers": [
             {
                 "user": {
-                    "name": "tvkorosteleva",
-                    "emailAddress": "tvkorosteleva@avito.ru",
-                    "id": 1214,
-                    "displayName": "Tatyana Korosteleva",
-                    "active": true,
-                    "slug": "tvkorosteleva",
-                    "type": "NORMAL",
-                    "links": {
-                        "self": [
-                            {
-                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
-                            }
-                        ]
-                    }
-                },
-                "lastReviewedCommit": "6b3bf62ea2df9c127de6f79a66345ffda2ac6f2f",
-                "role": "REVIEWER",
-                "approved": true,
-                "status": "APPROVED"
-            },
-            {
-                "user": {
                     "name": "aamosov",
                     "emailAddress": "aamosov@avito.ru",
                     "id": 1004,
@@ -22811,6 +22789,28 @@
                         "self": [
                             {
                                 "href": "http://stash.msk.avito.ru/users/aamosov"
+                            }
+                        ]
+                    }
+                },
+                "lastReviewedCommit": "6b3bf62ea2df9c127de6f79a66345ffda2ac6f2f",
+                "role": "REVIEWER",
+                "approved": true,
+                "status": "APPROVED"
+            },
+            {
+                "user": {
+                    "name": "tvkorosteleva",
+                    "emailAddress": "tvkorosteleva@avito.ru",
+                    "id": 1214,
+                    "displayName": "Tatyana Korosteleva",
+                    "active": true,
+                    "slug": "tvkorosteleva",
+                    "type": "NORMAL",
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://stash.msk.avito.ru/users/tvkorosteleva"
                             }
                         ]
                     }
@@ -23181,21 +23181,21 @@
         "participants": [
             {
                 "user": {
-                    "name": "alvov",
-                    "id": 81,
-                    "displayName": "alvov",
-                    "active": false,
-                    "slug": "alvov",
+                    "name": "vartemchuk",
+                    "emailAddress": "vartemchuk@avito.ru",
+                    "id": 736,
+                    "displayName": "Vasiliy Artemchuk",
+                    "active": true,
+                    "slug": "vartemchuk",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/alvov"
+                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
                             }
                         ]
                     }
                 },
-                "lastReviewedCommit": "c7f7ed3fe2f15a5d46f60c1ce0f41e6754154d9f",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"
@@ -23223,21 +23223,21 @@
             },
             {
                 "user": {
-                    "name": "vartemchuk",
-                    "emailAddress": "vartemchuk@avito.ru",
-                    "id": 736,
-                    "displayName": "Vasiliy Artemchuk",
-                    "active": true,
-                    "slug": "vartemchuk",
+                    "name": "alvov",
+                    "id": 81,
+                    "displayName": "alvov",
+                    "active": false,
+                    "slug": "alvov",
                     "type": "NORMAL",
                     "links": {
                         "self": [
                             {
-                                "href": "http://stash.msk.avito.ru/users/vartemchuk"
+                                "href": "http://stash.msk.avito.ru/users/alvov"
                             }
                         ]
                     }
                 },
+                "lastReviewedCommit": "c7f7ed3fe2f15a5d46f60c1ce0f41e6754154d9f",
                 "role": "PARTICIPANT",
                 "approved": false,
                 "status": "UNAPPROVED"

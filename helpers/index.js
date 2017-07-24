@@ -1,4 +1,6 @@
 module.exports = {
+    getPullRequestFiles: require('./getPullRequestFiles'),
+    getTicketStatus: require('./getTicketStatus'),
     processPrs: require('./processPrs'),
     approvePr: require('./approvePr'),
     slackPost: require('./slackPost'),

@@ -1,0 +1,77 @@
+#!/usr/local/bin/node
+
+'use strict';
+
+const fs = require('fs');
+const express = require('express');
+const app = express();
+
+const {
+    processPrs,
+    getRequests,
+    getPullRequestFiles,
+    simpleFlatten,
+    cors
+} = require('./helpers');
+
+const { JIRA_PASS, STASH_HOST, STASH_PROJECTS } = process.env;
+const PROJECTS = STASH_PROJECTS.split(' ').filter(Boolean);
+
+app.use(cors);
+
+function processArrayOfPrsAndConcat(arrayOfPrs, username) {
+    return simpleFlatten(
+        arrayOfPrs.map(singleResult =>
+            processPrs(
+                singleResult.values,
+                JIRA_PASS,
+                STASH_HOST,
+                username
+            )
+        )
+    );
+}
+
+function generateFileRequests(singlePr) {
+    return getPullRequestFiles(JIRA_PASS, `${singlePr.fromRef.repository.project.key}/repos/${singlePr.fromRef.repository.name}`, STASH_HOST, singlePr.id, singlePr);
+}
+
+
+function generateRequests(project) {
+    return getRequests(JIRA_PASS, project, STASH_HOST);
+}
+
+Promise.all(PROJECTS.map(generateRequests))
+    .then(function(result) {
+        Promise.all(
+            processArrayOfPrsAndConcat(result, 'vartemchuk')
+        ).then(result => {
+            Promise.all(result.map(generateFileRequests)).then(filesDiffs => {
+                const filtered = filesDiffs.filter(({ fromHash }) => fromHash);
+
+                if (filtered.length) {
+                    const difffs = simpleFlatten(filtered.map(({ diffs, originalPr }) => Object.assign({ diffs }, { originalPr }) ));
+                    const lnComments = difffs.map(({ diffs, originalPr }) => {
+                        const lineComments = (diffs || []).map(({ lineComments }) => lineComments);
+                        const parsedComments = (lineComments || []).map(commentBlock => {
+                            return (commentBlock || []).map(singleComment => {
+                                return {
+                                    author: singleComment.author,
+                                    text: singleComment.text,
+                                    singleComment
+                                };
+                            })
+
+                        });
+
+                        return Object.assign({ parsedComments }, { originalPr });
+                    })
+
+                    fs.writeFileSync('./logs/comments', JSON.stringify(lnComments, null, 4), () => {});
+                }
+            });
+        });
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
