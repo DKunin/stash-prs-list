@@ -84,7 +84,7 @@ function getLink(newArray, currentObject) {
 
 getPullRequests().then(result => {
     const parsedResult = processArrayOfPrsAndConcat(result);
-    Promise.all(parsedResult.map(getTicket)).then(wholeResult => {
+    Promise.all(parsedResult.filter(Boolean).map(getTicket)).then(wholeResult => {
         const recount = Object.keys(
             reviewers
         ).reduce((newObject, singleReviewer) => {
