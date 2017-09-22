@@ -2,6 +2,8 @@ module.exports = {
     processPrs: require('./processPrs'),
     approvePr: require('./approvePr'),
     getRequests: require('./getPullRequests'),
+    getTicketDetails: require('./getTicketDetails'),
+    processTickets: require('./processTickets'),
     mineWeight: bool => (bool ? 1 : 0),
     simpleFlatten: array =>
         array.reduce((newAry, oldArr) => newAry.concat(oldArr), []),

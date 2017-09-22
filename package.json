@@ -1,6 +1,6 @@
 {
   "name": "stash-prs-list",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple proxy, to get the API, and combine pull-requests with mergin info, and narrrowing down to a single user.",
   "main": "index.js",
   "repository": {},

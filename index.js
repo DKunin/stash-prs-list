@@ -8,6 +8,8 @@ const {
     getRequests,
     simpleFlatten,
     approvePr,
+    getTicketDetails,
+    processTickets,
     cors
 } = require('./helpers');
 
@@ -46,6 +48,12 @@ app.get('/api/prs', function(req, res) {
             console.log(error);
             res.send([]);
         });
+});
+
+app.get('/api/prs/details', function(req, res) {
+    getTicketDetails(JIRA_PASS, STASH_HOST, req.query)
+        .then(processTickets(JIRA_PASS, STASH_HOST))
+        .then(result => res.send(result));
 });
 
 app.post('/api/approve', function(req, res) {
